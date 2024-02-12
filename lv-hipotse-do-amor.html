@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEBB.Hipotse do amor</title>
+    <style>
+          body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+        }
+        
+        header {
+            background-color: rgba(0, 68, 255, 0.678);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .escola-name {
+            justify-content: center;
+            display: flex;
+            color: white;
+        }
+        
+        .acessos {
+            justify-content: center;
+            display: flex;
+            background-color: rgb(253, 188, 67);
+        }
+        
+        .acessos a {
+            padding: 0px 2%;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        @media  (max-width: 768px){
+            .acessos {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+            /*--------------------------------------------------------------------------------------------*/
+
+        @media  (max-width: 576px){
+            .acessos a {
+                font-size: 16px;
+            }}
+        main  {
+            display: flex;
+            max-width: 100%;
+            padding: 2% 5%;
+
+        }
+        main img {
+            max-width: 100%; 
+            border-radius: 20px;   
+
+        }
+        footer {
+            max-width: 100%;
+            width: 100%;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 68, 255, 0.678);
+        }
+        @media (max-width:568px) {
+            .p1 {
+                display: flex;
+                position: relative;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="escola-name">E.E Bueno Brandão</h2>
+        <nav class="acessos">
+            <a href="livros.html">Voltar</a>
+        </nav>
+    </header>
+    <main>
+        <img src="hipotesedoamor.jpg" alt="">
+    </main>
+    <section class="p1">
+        <h3>
+            Hipotse do amor
+        </h3>
+        <article>
+            <h4>
+                Descrição
+            </h4>
+            <p>
+                A hipótese do amor é um livro escrito pelo psicólogo social Elaine Hatfield, que explora as diferentes formas de amor e a 
+                dinâmica dos relacionamentos amorosos. A obra sugere que o amor pode ser entendido como um processo em três fases: atração,
+                 romance e apego. Hatfield discute como essas fases podem variar de intensidade e duração, e como fatores como a proximidade física,
+                  a semelhança e o contexto social influenciam a formação e a manutenção do amor. Além disso, o livro aborda temas como a paixão,
+                   o ciúme, a infidelidade e os desafios enfrentados pelos casais ao longo do tempo. A hipótese do amor oferece uma visão abrangente
+                    e perspicaz sobre um dos aspectos mais complexos e importantes da experiência humana.</p>
+
+        </article>
+    </section>
+    <footer>
+        <p>&copy; 2024 Escola Estadual Bueno Brandão. Todos os direitos reservados. Desenvolvido por: Guilherme Freire Martins </p>
+    </footer>
+    
+</body>
+</html>
